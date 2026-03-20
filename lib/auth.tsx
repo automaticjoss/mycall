@@ -3,7 +3,7 @@
 import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from "react";
 import { useRouter, usePathname } from "next/navigation";
 
-const BACKEND_URL = "http://5.189.144.48:8000";
+const BACKEND_URL = "/api/proxy";
 const TOKEN_KEY = "cyberroad_user_token";
 const USER_KEY = "cyberroad_user";
 

@@ -96,7 +96,7 @@ function getScriptsForType(store: TemplateStore, callType: string): Record<StepK
   return store[callType] ?? { ...DEFAULT_SCRIPTS };
 }
 
-const BACKEND_URL = "http://5.189.144.48:8000";
+const BACKEND_URL = "/api/proxy";
 
 /* ─── log ─── */
 interface LogEntry { id: number | string; ts: string; type: "info"|"ok"|"warn"|"err"|"sys"; tag: string; msg: string; }
